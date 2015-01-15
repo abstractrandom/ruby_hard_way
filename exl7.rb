@@ -21,5 +21,7 @@ end11 = "e"
 end12 = "r"
 
 # whatch that print vs. puts on this line what's it do?
+#prints out to console each of these variables which are strings, concatenating them together.
+#print will not \n at the end, continuing the line.
 print end1 + end2 + end3 + end4 + end5 + end6
 puts end7 + end8 + end9 + end10 + end11 + end12
