@@ -1,5 +1,16 @@
-ARGV = first, second, third
+numero1, numero2, numero3 = ARGV
 
-puts "Your first variable is: #{first}"
-puts "Your second variable is: #{second}"
-puts "Your third variable is: #{third}"
+# if numero1 == "David"
+#   puts "Your first name is #{numero1}"
+# else
+#   puts "You are awesome, but you are not David"
+# end
+#   puts "#{numero2}. Is. an INCREDIBLE age!"
+#
+# puts "I thought maybe you were a #{numero3}. What an awesome job!"
+#
+print "What is your favorite color?"
+
+x = gets.chomp
+
+puts "Hey that's cool. #{x} is my favorite color also!"
